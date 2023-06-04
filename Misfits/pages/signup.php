@@ -12,13 +12,14 @@
     <div class="container">
         <div class="form signup">
             <h2>Sign Up</h2>
+            <form method="POST" action="signup.php">
             <div class="inputBox">
-                <input type="text" required="required">
+                <input type="text" name="username" required>
                 <i class="fa-regular fa-user icons"></i>
                 <span>Username</span>
             </div>
             <div class="inputBox">
-                <input type="text" required="required" autocomplete="email">
+                <input type="text" name="email" required autocomplete="email">
                 <i class="fa-regular fa-envelope icons"></i>
                 <span>Email Address</span>
             </div>
